@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="/Users/diego/Documents/Programacao/NodeJs/sign_up_in_jwt/Utils/jquery.min.js"></script>
+    <script src="/Users/diego/Documents/Programacao/NodeJs/sign_up_in_jwt/Utils/bootstrap.min.js"></script>
+<body>
+
+  <div class="container">
+    <h2>Faça o login</h2>
+    <form action="http://localhost:3000/api/login" method="post">
+        <div class="form-group">
+          <label for="nome">Login:</label>
+          <input type="text" class="form-control" id="nome" name="nome">
+        </div>
+        <div class="form-group">
+          <label for="senha">Password:</label>
+          <input type="password" class="form-control" id="senha", name="senha">
+        </div>
+        <button type="submit" class="btn btn-default">Entrar</button>
+        <a href="http://localhost:3000/api/register" class="btn btn-info" role="button">Registre-se</a>
+      </form>
+  </div>
+
+  
+
+</body>
+</html>

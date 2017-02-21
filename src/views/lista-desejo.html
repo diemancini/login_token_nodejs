@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="/Users/diego/Documents/Programacao/NodeJs/sign_up_in_jwt/Utils/jquery.min.js"></script>
+    <script src="/Users/diego/Documents/Programacao/NodeJs/sign_up_in_jwt/Utils/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <form action="http://localhost:3000/api/lista_desejo" method="post">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" class="form-control" id="nome" name="nome">
+        </div>
+        <div class="form-group">
+          <label for="descricao">Descrição:</label>
+          <input type="text" class="form-control" id="descricao" name="descricao">
+        </div>
+        <div class="form-group">
+          <label for="valor_medio">Valor médio:</label>
+          <input type="text" class="form-control" id="valor_medio" name="valor_medio">
+        </div>
+        <div class="form-group">
+          <label for="data_criacao">Data de criação:</label>
+          <input type="date" class="form-control" id="data_criacao" name="data_criacao">
+        </div>
+        <div class="form-group">
+          <label for="data_atualizacao">Data de atualização:</label>
+          <input type="date" class="form-control" id="data_atualizacao" name="data_atualizacao">
+        </div>
+        <button type="submit" class="btn btn-default">Salvar</button>
+      </form>
+  </div>
+
+</body>
+</html>
